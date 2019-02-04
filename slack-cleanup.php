@@ -1,12 +1,12 @@
 #!/usr/bin/env php
 <?php
 
+date_default_timezone_set('GMT');
+
 $timestamp = strtotime('-1 months');
 $token_list = [
 	'name' => 'token'
 ];
-
-date_default_timezone_set('GMT');
 
 foreach ($token_list as $name => $token) {
 	echo "Deleting files for " . $name . "...\n";
