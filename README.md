@@ -7,8 +7,8 @@ It requires a certain amount of trust, as the legacy tokens can be used for anyt
 Steps:
 
 1. Have each team member create a token (https://api.slack.com/custom-integrations/legacy-tokens).
-2. Add names and tokens to **$token_list[]** (*line 5*).
-3. Specify the time files should be kept for with **$timestamp** (*line 4*). Default is one month.
+2. Add names and tokens to **$token_list[]** (*line 7*).
+3. Specify the time files should be kept for with **$timestamp** (*line 6*). Default is one month.
 4. Run the script.
 5. **[optional]** Add script to crontab to run it regularly.
 
